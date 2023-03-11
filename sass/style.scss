@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: #eaeaea;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 30rem;
+    margin: 1rem;
+    .search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .searchInput {
+            border: 1px solid #222;
+            height: 2rem;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            font-weight: 600;
+            width: 100%;
+            margin-bottom: 1.5rem;
+        }
+    }
+    .weather {
+        h1 {
+            color: orange;
+        }
+        .description, .text1, .text2 {
+            font-weight: bold;
+            span {
+                padding-left: 0.5rem;
+                color: orange;
+            }
+        }
+    }
+}
